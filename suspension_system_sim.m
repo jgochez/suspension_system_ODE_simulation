@@ -5,6 +5,10 @@
 clear
 clc
 
+% project prompt images
+prompt_image = imread('prompt_image.png');
+image(prompt_image);
+
 % Initialize Constants
 const.m = 100; % (kg) mass
 const.d = 0.2; % (m) unstretched length of spring
@@ -121,3 +125,4 @@ dot_x_1 = x_2;
 dot_x_2 =((-m*g)/m)-((c*dot_x_1)/m)-((k*x_1)/m) ; % EoM 
 dot_x = [dot_x_1; dot_x_2]; 
 end
+
