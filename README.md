@@ -1,2 +1,3 @@
 # suspension_system_ODE_simulation
-![starting position for game](prompt_image.png "starting position for game")
+![alt text] (project_prompt.png)
+![alt text] (prompt_image.png)
